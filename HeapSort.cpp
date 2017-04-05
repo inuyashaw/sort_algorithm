@@ -35,6 +35,8 @@ void max_heapify(int arr[],int start,int end)
 	}
 }
 
+//堆排序是一种树形选择排序，使用频度较高，常用语想知道最大/小值的情况，比如优先级队列，作业调度等场景
+//堆排序为不稳定排序，不适合记录较少的排序
 void HeapSort(int arr[],int len)
 {
 	//初始化，i从最后一个父节点开始调整
@@ -60,3 +62,5 @@ int main(int argc,char* argv[])
 	cout<<endl;
 	return 0;
 }
+
+
