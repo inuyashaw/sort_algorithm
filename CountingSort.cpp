@@ -18,6 +18,8 @@
 
 using namespace std;
 
+//计数排序只能使用在已知序列中元素在0-k之间，且排序的复杂度在线性效率上
+//计数排序和基数排序很类似都是比较型排序算法，但核心思想不同
 void CountingSort(int *ini_arr,int *sorted_arr,int n)
 {
 	int *count_arr=new int [100];
